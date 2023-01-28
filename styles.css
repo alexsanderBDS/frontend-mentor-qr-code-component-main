@@ -1,0 +1,80 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* ################################ INIT #############################3 */
+
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
+  --border-radius-px: 10px;
+}
+
+* {
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--color-grayish-blue);
+  background-color: #000;
+}
+
+.container {
+  height: 100vh;
+  max-width: 144rem;
+  background-color: var(--color-light-gray);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.card {
+  width: 32rem;
+  padding: 2rem;
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-px);
+  box-shadow: 0 0 28px -4px hsl(220deg 15% 55% / 44%);
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.card img {
+  border-radius: var(--border-radius-px);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.card-content-title {
+  color: var(--color-dark-blue);
+}
+
+.card-content-text {
+  padding: 2rem;
+}
